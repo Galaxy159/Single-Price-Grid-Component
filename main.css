@@ -65,7 +65,12 @@ p {
 }
 .component__header {
   grid-column: 1/-1;
-  padding: 2.8rem 2.4rem 3.2rem 2.4rem;
+  padding: 4rem;
+}
+@media (max-width: 635px) {
+  .component__header {
+    padding: 2.8rem 2.4rem 3.2rem 2.4rem;
+  }
 }
 .component__header--headline {
   color: #2ab2af;
