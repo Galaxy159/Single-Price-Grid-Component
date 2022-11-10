@@ -17,6 +17,26 @@ body {
   background-color: #e5eff5;
 }
 
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  letter-spacing: -0.225px;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  letter-spacing: -0.2px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -24,4 +44,88 @@ body {
 
 .attribution a {
   color: hsl(228deg, 45%, 44%);
+}
+
+.component {
+  max-width: 63.5rem;
+  margin: 16.4rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: white;
+  border-radius: 0.8rem;
+  box-shadow: 0 1.5rem 3rem rgba(0, 81, 171, 0.148847);
+  overflow: hidden;
+}
+.component__header {
+  grid-column: 1/-1;
+  padding: 4rem;
+}
+.component__header--headline {
+  color: #2ab2af;
+  margin-bottom: 2.4rem;
+}
+.component__header--subheadline {
+  color: #c0df34;
+  margin-bottom: 1.1rem;
+}
+.component__header--text {
+  color: #98a6bd;
+}
+.component__price {
+  padding: 4rem;
+  background-color: #2ab2af;
+  color: white;
+}
+.component__price--headline {
+  margin-bottom: 1.8rem;
+}
+.component__price--pricing {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+}
+.component__price--pricing p {
+  opacity: 0.5;
+}
+.component__price--pricing span {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.7rem;
+  letter-spacing: -0.4px;
+  opacity: 1;
+  margin-bottom: 0.4rem;
+}
+.component__price--text {
+  margin-bottom: 2.6rem;
+}
+.component__price--signup {
+  color: white;
+  background-color: #c0df34;
+  border: none;
+  width: 23.7rem;
+  height: 4.8rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.0973011);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.component__price--signup:hover {
+  background-color: rgb(205, 224, 118);
+}
+.component__why-us {
+  background-color: rgba(42, 178, 175, 0.85);
+  mix-blend-mode: normal;
+  padding: 4rem;
+  color: white;
+}
+.component__why-us--headline {
+  margin-bottom: 1.8rem;
+}
+.component__why-us--text {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: -0.175px;
+  opacity: 0.75;
 }/*# sourceMappingURL=main.css.map */
