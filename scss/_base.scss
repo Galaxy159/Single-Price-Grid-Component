@@ -7,7 +7,7 @@ $color-grayish-blue: #98a6bd;
 // Media
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
-    @media (max-width: 1440px) {
+    @media (max-width: 635px) {
       @content;
     }
   }
